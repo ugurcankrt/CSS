@@ -1,0 +1,19 @@
+/* Aciklama alani */
+/******** Layout **********/
+body {
+    background-color: chartreuse;
+    color: blue;
+    font-family: 'Roboto', sans-serif;
+}
+h2 {
+    color: khaki; 
+    font-size: 74px;
+    text-transform: uppercase;
+}        
+p {
+    color: darkgreen; 
+    font-size: 40px;
+}
+ul {
+    color: blueviolet;
+}

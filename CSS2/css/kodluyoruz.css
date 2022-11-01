@@ -1,5 +1,29 @@
 /* class -> .text-red {} */
 /* id -> #id bilgis {} */
+/* css selectors */
+/* alttaki .colorblue iki class birlikte kullanılmalı demek */
+
+/* ul > li:first-child {
+    color: greenyellow;
+}
+
+ul > li:last-child {
+    color: palevioletred;
+} */
+
+li:nth-child(odd) {
+    color: blueviolet;
+}
+
+li:nth-child(even) {
+    background-color: aquamarine;
+}
+
+.color-blue.fw-normal{
+    color: blue;
+    font-weight: normal;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-size: 30px;
     color: #FF69B4;
